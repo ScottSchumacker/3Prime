@@ -184,11 +184,11 @@ server <- function(input, output) {
   #})
   
   # Data Acquisition
-  sample_id <- dir(file.path("/Users/ScottSchumacker/Desktop/Research/SciDataPaper/MacRetData"))
+  sample_id <- dir(file.path(""))
   
-  kal_dirs <- file.path("/Users/ScottSchumacker/Desktop/Research/SciDataPaper/MacRetData",sample_id)
+  kal_dirs <- file.path("",sample_id)
   
-  s2c <- read.table(file.path("/Users/ScottSchumacker/Desktop/Research/SciDataPaper/MacRetTable.txt"),
+  s2c <- read.table(file.path(""),
                     header = TRUE,
                     stringsAsFactors = FALSE,
                     sep = "\t")
